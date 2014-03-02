@@ -14,7 +14,7 @@ Licensed under GNU Public License Version 2.0 (GPL v2.0) and any later versions 
       
 Requires compiled PolarSSL libraries.
 
-At this time, it has been tested and verified under Debian 7 with PolarSSL 1.2.9.
+At this time, it has been briefly checked (SHA-512 only) under Debian 7 with PolarSSL 1.2.9.
 
 Debian command to install PolarSSL components:
 sudo apt-get install -y libpolarssl-dev 
