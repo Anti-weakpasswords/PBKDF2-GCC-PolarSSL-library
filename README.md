@@ -1,21 +1,16 @@
 PBKDF2-GCC-PolarSSL-library
 ===========================
 
-      Code     Issues 0     Pull Requests 0     Wiki      Pulse     Graphs     Network      Settings  HTTPS clone URL  
-      
-      
-      
-You can clone with HTTPS, SSH, or Subversion.  
+GCC and PolarSSL library based PBKDF2 implementation.  Works in Linux.  Should work in Windows with MinGW once PolarSSL libraries are compiled.
 
-GCC based PBKDF2 implementation using PolarSSL libraries; works in Linux. Should work in Windows with MinGW once PolarSSL libraries are compiled.
-
+      
 Licensed under GNU Public License Version 2.0 (GPL v2.0) and any later versions of this License.
+
       
-      
-Requires compiled PolarSSL libraries.
 
 At this time, it has been briefly checked (SHA-512 only) under Debian 7 with PolarSSL 1.2.9.
 
+Requires compiled PolarSSL libraries.
 Debian command to install PolarSSL components:
 sudo apt-get install -y libpolarssl-dev 
 
